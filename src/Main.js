@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
 import Weather from "./Weather";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Route
+        <div
           exact={true}
           path="/"
           render={() => (
@@ -15,7 +14,7 @@ export default class App extends Component {
             </div>
           )}
         />
-        <Route
+        <div
           exact={true}
           path="/paris"
           render={() => (
@@ -24,7 +23,7 @@ export default class App extends Component {
             </div>
           )}
         />
-        <Route
+        <div
           exact={true}
           path="/sydney"
           render={() => (
@@ -33,7 +32,7 @@ export default class App extends Component {
             </div>
           )}
         />
-        <Route
+        <div
           exact={true}
           path="/san-francisco"
           render={() => (

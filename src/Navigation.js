@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 export default class Navigation extends Component {
@@ -8,16 +7,16 @@ export default class Navigation extends Component {
       <header>
         <ul className="navigation-items">
           <li className="navigation-item">
-            <Link to="/">Lisbon</Link>
+            <a to="/">Lisbon</a>
           </li>
           <li className="navigation-item">
-            <Link to="/paris">Paris</Link>
+            <a to="/paris">Paris</a>
           </li>
           <li className="navigation-item">
-            <Link to="/sydney">Sydney</Link>
+            <a to="/sydney">Sydney</a>
           </li>
           <li className="navigation-item">
-            <Link to="/san-francisco">San Francisco</Link>
+            <a to="/san-francisco">San Francisco</a>
           </li>
         </ul>
       </header>
